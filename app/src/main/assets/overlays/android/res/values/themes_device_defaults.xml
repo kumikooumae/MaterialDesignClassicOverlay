@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <style name="Theme.DeviceDefault.Settings" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+        <!-- From Theme.Material.Light.LightStatusBar -->
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Color palette -->
+        <item name="android:colorBackground">@*android:color/background_device_default_light</item>
+        <item name="android:colorPrimary">@*android:color/primary_device_default_settings</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_device_default_settings</item>
+        <item name="android:colorSecondary">@*android:color/secondary_device_default_settings</item>
+        <item name="android:colorAccent">@*android:color/accent_device_default_dark</item>
+        <item name="android:colorError">@*android:color/error_color_device_default_dark</item>
+        <item name="android:colorEdgeEffect">@*android:color/edge_effect_device_default_dark</item>
+
+        <!-- Add white nav bar with divider that matches material -->
+        <item name="android:navigationBarColor">@*android:color/transparent</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <!-- Dialog attributes -->
+        <item name="android:dialogCornerRadius">2dp</item>
+
+        <!-- Button styles -->
+        <item name="android:buttonCornerRadius">2dp</item>
+    </style>
+</resources>
