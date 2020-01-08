@@ -18,6 +18,8 @@
     <style name="BaseBrightnessDialogContainer" parent="@android:style/Theme.DeviceDefault">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:colorControlActivated">@android:color/white</item>
+        <item name="android:colorBackgroundFloating">@*android:color/primary_material_dark</item>
     </style>
 
     <style name="qs_theme" parent="@*android:style/Theme.DeviceDefault">
@@ -30,7 +32,8 @@
         <item name="android:colorControlActivated">@android:color/white</item>
 
         <!-- Switch bar -->
-        <item name="android:colorSecondary">@*android:color/secondary_device_default_settings</item>        <item name="android:textColorPrimaryInverse">@*android:color/white</item>
+        <item name="android:colorSecondary">@*android:color/secondary_device_default_settings</item>
+        <item name="android:textColorPrimaryInverse">@*android:color/white</item>
 
         <!-- Inner color, cheat QSTileImpl.java -->
         <item name="android:colorPrimary">@*android:color/white</item>
