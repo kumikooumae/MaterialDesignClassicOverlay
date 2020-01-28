@@ -22,4 +22,10 @@
     <dimen name="quick_qs_offset_height">0dp</dimen>
     <!-- Total height of QQS (quick_qs_offset_height + 128) -->
     <dimen name="quick_qs_total_height">72dp</dimen>
+
+    <!-- Desired size of system icons in status bar. -->
+    <dimen name="status_bar_system_icon_size">17dp</dimen>
+    <!-- Intrinsic size of most system icons in status bar. This is the default value that
+         is used if a Drawable reports an intrinsic size of 0. -->
+    <dimen name="status_bar_system_icon_intrinsic_size">17dp</dimen>
 </resources>
