@@ -81,7 +81,7 @@ dependencies {
     //implementation(fileTree(include = ["*.jar"], dir = "libs"))
     implementation("com.github.javiersantos:PiracyChecker:1.2.5")
     implementation(kotlin("stdlib-jdk8"))
-    implementation("androidx.appcompat:appcompat:1.2.0")
+    implementation("androidx.appcompat:appcompat:1.3.1")
 }
 
 // Themers: DO NOT MODIFY ANYTHING BELOW
