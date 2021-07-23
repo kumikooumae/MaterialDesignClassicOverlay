@@ -33,13 +33,13 @@ android {
     defaultConfig {
         // If you're planning to change up the package name, ensure you have read the readme
         // thoroughly!
-        applicationId("substratum.theme.template")
+        applicationId("ui.materialdesignclassic.overlay")
         // We are only supporting Nougat and above, all new changes will incorporate Nougat changes
         // to the substratum repo rather than anything lower. Keep targetSdkVersion the same.
         minSdkVersion(24)
         // Both versions must be changed to increment on Play Store/user's devices
-        versionCode = 2
-        versionName = "2.0"
+        versionCode = 100
+        versionName = "10"
 
         // Themers: DO NOT MODIFY
         buildConfigField("boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "$SUPPORTS_THIRD_PARTY_SYSTEMS")
