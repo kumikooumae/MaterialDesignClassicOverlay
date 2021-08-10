@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (c) 2006, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+*/
+-->
+<resources>
+    <!-- (unused) The height of the container that holds the battery and time in the quick settings header.
+     -->
+    <dimen name="qs_header_system_icons_area_height">0dp</dimen>
+
+    <dimen name="qs_header_mobile_icon_size">0dp</dimen>
+
+    <!-- How far the quick-quick settings panel extends below the status bar -->
+<!--    <dimen name="qs_quick_header_panel_height">72dp</dimen>-->
+
+    <!--  Hide circle shape behind qs tile  -->
+    <dimen name="qs_tile_background_size">0dp</dimen>
+
+    <!-- Default horizontal drawable padding for status bar icons. -->
+    <!-- Used by cast -->
+    <dimen name="status_bar_horizontal_padding">2.5dp</dimen>
+
+    <!-- Spacing after the wifi signals that is present if there are any icons following it. -->
+    <dimen name="status_bar_wifi_signal_spacer_width">2.5dp</dimen>
+
+    <!-- Spacing before the airplane mode icon if there are any icons preceding it. -->
+    <dimen name="status_bar_airplane_spacer_width">0dp</dimen>
+
+    <!-- Padding between signal cluster and battery icon -->
+    <dimen name="signal_cluster_battery_padding">4dp</dimen>
+
+    <!-- Height of the battery icon in the status bar. -->
+    <dimen name="status_bar_battery_icon_height">17.0dp</dimen>
+
+    <!-- Width of the battery icon in the status bar. The battery drawable assumes a 12x20 canvas,
+    so the width of the icon should be 13.0dp * (12.0 / 20.0) -->
+    <dimen name="status_bar_battery_icon_width">10.2dp</dimen>
+
+    <!-- Padding between the mobile signal indicator and the start icon when the roaming icon
+         is displayed in the upper left corner. -->
+    <dimen name="roaming_icon_start_padding">2dp</dimen>
+
+    <!-- SignalDrawable -->
+    <dimen name="signal_icon_size">17dp</dimen>
+
+    <!-- Size of the view displaying the wifi signal icon in the status bar. -->
+    <dimen name="status_bar_wifi_signal_size">18dp</dimen>
+
+</resources>
