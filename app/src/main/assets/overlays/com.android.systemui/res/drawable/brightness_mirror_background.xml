@@ -16,6 +16,6 @@
   -->
 <!-- Used in quick settings brightness -->
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@*com.android.systemui:color/qs_background_dark" />
+    <solid android:color="@*android:color/primary_material_dark" />
     <corners android:radius="2dp" />
 </shape>

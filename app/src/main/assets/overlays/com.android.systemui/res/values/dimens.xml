@@ -24,7 +24,8 @@
 <!--    <dimen name="qs_quick_header_panel_height">72dp</dimen>-->
 
     <!--  Hide circle shape behind qs tile  -->
-    <dimen name="qs_tile_background_size">0dp</dimen>
+    <!-- Will affect margin of QS in Android 11 -->
+<!--    <dimen name="qs_tile_background_size">0dp</dimen>-->
 
     <!-- Default horizontal drawable padding for status bar icons. -->
     <!-- Used by cast -->

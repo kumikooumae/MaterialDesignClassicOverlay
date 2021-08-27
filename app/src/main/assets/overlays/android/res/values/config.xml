@@ -37,7 +37,7 @@
         <item><xliff:g id="id">@*android:string/status_bar_managed_profile</xliff:g></item>
         <item><xliff:g id="id">@*android:string/status_bar_cast</xliff:g></item>
 <!--        android 11 only -->
-<!--        <item><xliff:g id="id">@*android:string/status_bar_screen_record</xliff:g></item>-->
+        <item><xliff:g id="id">@*android:string/status_bar_screen_record</xliff:g></item>
         <item><xliff:g id="id">@*android:string/status_bar_vpn</xliff:g></item>
         <item><xliff:g id="id">@*android:string/status_bar_bluetooth</xliff:g></item>
         <item><xliff:g id="id">@*android:string/status_bar_camera</xliff:g></item>

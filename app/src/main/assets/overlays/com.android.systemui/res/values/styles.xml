@@ -15,10 +15,11 @@
 -->
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
-    <style name="BrightnessDialogContainer" parent="@*com.android.systemui:style/BaseBrightnessDialogContainer">
-        <item name="android:colorControlActivated">@android:color/white</item>
+    <style name="BrightnessDialogContainer" parent="@*android:style/Theme.DeviceDefault.QuickSettings">
+        <item name="android:colorControlActivated">@*android:color/white</item>
         <item name="android:colorBackgroundFloating">@*android:color/primary_material_dark</item>
         <item name="android:colorAccent">@*android:color/white</item>
+        <item name="android:colorControlNormal">@*android:color/white</item>
     </style>
 
     <style name="qs_theme" parent="@*android:style/Theme.DeviceDefault">
@@ -35,7 +36,7 @@
         <item name="android:textColorPrimaryInverse">@*android:color/white</item>
 
         <!-- Inner color, cheat QSTileImpl.java -->
-        <item name="android:colorPrimary">@*android:color/white</item>
+        <item name="android:colorPrimary">@*android:color/background_floating_material_dark</item>
         <item name="android:textColorSecondary">#9E9E9E</item>
 
         <!-- Button styles -->
@@ -44,12 +45,15 @@
         <!-- Volume dialog settings -->
         <item name="android:panelColorBackground">@*android:color/background_floating_material_dark</item>
 
-        <!-- Volume dialog button accent -->
+        <!-- Volume dialog button accent, and active QS background -->
         <item name="android:colorAccent">@*android:color/white</item>
+
+        <!-- inactive QS background -->
+        <item name="android:textColorTertiary">#9E9E9E</item>
 
         <item name="android:colorError">@*android:color/error_color_material_dark</item>
         <item name="android:windowIsFloating">true</item>
-        <item name="android:homeAsUpIndicator">@*com.android.systemui:drawable/ic_arrow_back</item>
+<!--        <item name="android:homeAsUpIndicator">@*com.android.systemui:drawable/ic_arrow_back</item>-->
     </style>
 
     <style name="QSHeaderTheme" parent="@*android:style/Theme.DeviceDefault.QuickSettings">
